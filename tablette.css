@@ -1,36 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Ysabeau+Infant:400');
+@media only screen and (min-width: 600px) {
+    .flex-container {
+        flex-direction: row;  
+    }
+    h1 ,h2 ,h3{
+    font-size: 80%;
+   }
+  
+   @import url('https://fonts.googleapis.com/css?family=Ysabeau+Infant:400');
 @import url('https://fonts.googleapis.com/css?family=Eczar:400');
 
 /* SOCIAL BAR */
 /* Fixed/sticky icon bar (vertically aligned 10% from the top of the screen) */
-.icon-bar {
-    position: fixed;
-    width: 20%;
-    top: 10%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+/* .icon-bar {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: row;
   }
 
-  .icon-bar a:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    border-radius: 25px;
-}
 
   .codepen {
     color: white;
-    width: 25%;
+    width: 50%;
   }
   
   .linkedin {
     color: white;
-    width: 25%;
+    width: 50%;
   }
   
   .github {
     color: white;
-    width: 25%;
-  } 
+    width: 50%;
+  }  */
 
 
   /* TYPOGRAPHIE */
@@ -64,27 +67,29 @@ h1, h2, h3, h4, h5 {
   font-family: 'Eczar', serif ,Arial, Helvetica, sans-serif;
   font-weight: 200;
   line-height: 0.8;
+  font-size: 25pt;
 }
 
 h1 {
   margin-top: 0;
   font-size: 5.063rem; 
   margin-bottom: -40px;
+  font-size: 45pt;
 }
 
-h3 {
+.custom-h3 {
+    font-size: 25pt;
     color: #ffffff;
     text-align: left;
+    margin-top: 3px;
   }
-
-
 /* IMAGE */
 
 .box-image {
         width: 100%;
         object-fit: cover;
-        border-radius: 25px;
         z-index: -1;
+        border-radius: 50px;
 }
 
 
@@ -116,12 +121,9 @@ h3 {
     border-radius: 25px;
     margin: 10px;
     flex-basis: fit-content;
+    background-image: linear-gradient(to right, rgb(58, 8, 8), rgb(41, 0, 0));
   }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout  voir les annexes*/
- 
-
-
-
-
-
+#contenu {
+    margin-top: -20px;
+}  
+  }
