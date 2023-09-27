@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Ysabeau+Infant:400');
+
+
+/* SOCIAL BAR */
+/* Fixed/sticky icon bar (vertically aligned 10% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    width: 20%;
+    top: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .icon-bar a:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 25px;
+}
+
+  .codepen {
+    color: white;
+    width: 25%;
+  }
+  
+  .linkedin {
+    color: white;
+    width: 25%;
+  }
+  
+  .github {
+    color: white;
+    width: 25%;
+  } 
+
+
+  /* TYPOGRAPHIE */
+
+
+
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: rgb(41, 41, 41);
+  font-family: 'Ysabeau Infant', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 0.8;
+  color: #ffffff;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+.parabox {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-align: left;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Plaster', sans-serif ,Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  line-height: 0.8;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 5.063rem; 
+}
+
+h3 {
+    color: #ffffff;
+    text-align: left;
+    margin-top: 10px;
+  }
+
+/* IMAGE */
+
+.box-image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+        z-index: -1;
+}
+
+
+/* RESPONSIVEFLEXBOX */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+.flex-item-left {
+    background-color: rgb(41, 41, 41);
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+    flex-basis: fit-content;
+  }
+  
+.flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 10px;
+    flex-basis: fit-content;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
