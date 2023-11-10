@@ -1,28 +1,16 @@
 import React from "react";
 
-export interface Props {
-  name: string;
-  enthusiasmLevel?: number;
+interface CardProps {
+  title: string;
+  content: string;
 }
 
-function Hello({ name, enthusiasmLevel = 1 }: Props) {
-  if (enthusiasmLevel <= 0) {
-    throw new Error("You could be a little more enthusiastic. :D");
-  }
-
+const CardProps: React.FC<CardProps> = ({ title, content }) => {
   return (
-    <div className="hello">
-      <div className="greeting">
-        Hello {name + getExclamationMarks(enthusiasmLevel)}
-      </div>
+    <div className="card">
+      <h1>{title}</h1>
+      <p>{content}</p>
     </div>
   );
-}
-
-export default Hello;
-
-// helpers
-
-function getExclamationMarks(numChars: number) {
-  return Array(numChars + 1).join("!");
-}
+};
+export default CardProps;
