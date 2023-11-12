@@ -6,11 +6,15 @@ function App() {
   return (
     <div>
       <div>
-        <CardProps
-          title="Julia Michel T."
-          statut="Student junior web developer"
-          school="at Becode"
-        />
+        <div>
+          <CardProps
+            title="Julia Michel T."
+            statut="Student junior web developer"
+            school="at Becode"
+            Bio="Hello world!" // Add Bio prop
+            parabio="Do you too,like enjoy solving puzzles? Teamwork? Are you looking for a colleague who is not sensitive to stress and loves facing challenges? Then flip this card and get in touch with me!" // Add parabio prop
+          />
+        </div>
       </div>
     </div>
   );
