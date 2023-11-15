@@ -3,15 +3,15 @@
 
 ## The mission
 
-Now that you have CV you have to write. Create a new repository called VCard and use as much CSS positioning as possible.
+MAKE THE V CARD WITH REACT AND VITE VANILLA TYPESCRIPT 
 
 ### Instructions
 
-- create the repository
+- create the branch
 
-- write your Vcard in HTML and CSS
+- write every components 
 
-- use CSS positioning to make a unique card
+- use typescript
 
 - commit/push
 
