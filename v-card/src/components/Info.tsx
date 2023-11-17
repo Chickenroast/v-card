@@ -1,3 +1,6 @@
+/*
+info : useState is for animations when the page is loaded
+*/
 import React, { useState } from "react";
 import "../App.css";
 

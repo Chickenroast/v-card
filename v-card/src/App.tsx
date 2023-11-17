@@ -2,10 +2,14 @@
 import "./App.css";
 import CardProps from "../src/components/vcard.tsx";
 import InfoProps from "./components/Info.tsx";
+import Picture from "./components/Picture.tsx";
 
 function App() {
   return (
     <>
+      <div>
+        <Picture />
+      </div>
       <div>
         <div>
           <CardProps
