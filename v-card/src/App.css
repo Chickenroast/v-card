@@ -13,7 +13,7 @@
   background: #ffffff;
   padding: 20px;
   border-radius: 8px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .box {
@@ -30,8 +30,6 @@
 /* Typographie ------------------------------------ */
 .h1 {
   font-size: 25pt;
-  margin-right: -185px;
-  margin-left: -185px;
 }
 .p {
   margin-top: -15px;
@@ -65,4 +63,10 @@
   width: 50px;
   text-align: center;
   text-decoration: none;
+}
+
+/* DIV SOCIAL PICTURE ------------------------------------ */
+
+.picturesocial {
+  display: flex;
 }

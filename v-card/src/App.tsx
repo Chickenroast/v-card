@@ -8,16 +8,22 @@ import Socialbar from "./components/socialbar.tsx";
 function App() {
   return (
     <>
-      <div>
-        <Picture />
-      </div>
-      <div>
+      <div className="picturesocial">
         <div>
-          <CardProps
-            title="Julia Michel T."
-            statut="Student junior web developer"
-            school="at Becode"
-          />
+          <Picture />
+        </div>
+
+        <div>
+          <Socialbar />
+        </div>
+        <div>
+          <div>
+            <CardProps
+              title="Julia Michel T."
+              statut="Student junior web developer"
+              school="at Becode"
+            />
+          </div>
         </div>
       </div>
 
@@ -30,10 +36,6 @@ function App() {
           and loves facing challenges? Then flip this card and get in touch with me!"
           />
         </div>
-      </div>
-
-      <div>
-        <Socialbar />
       </div>
     </>
   );
