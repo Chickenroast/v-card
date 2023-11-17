@@ -3,6 +3,7 @@ import "./App.css";
 import CardProps from "../src/components/vcard.tsx";
 import InfoProps from "./components/Info.tsx";
 import Picture from "./components/Picture.tsx";
+import Socialbar from "./components/socialbar.tsx";
 
 function App() {
   return (
@@ -29,6 +30,10 @@ function App() {
           and loves facing challenges? Then flip this card and get in touch with me!"
           />
         </div>
+      </div>
+
+      <div>
+        <Socialbar />
       </div>
     </>
   );
