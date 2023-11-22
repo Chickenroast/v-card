@@ -1,22 +1,17 @@
 
 # v-card
 
-## The mission
+## TECH's :
 
-Now that you have CV you have to write. Create a new repository called VCard and use as much CSS positioning as possible.
+- TYPESCRIPT
+- REACT
+- CSS
 
-### Instructions
+## START PROJECT :
 
-- create the repository
+16/11/2023
 
-- write your Vcard in HTML and CSS
+## Project now :
 
-- use CSS positioning to make a unique card
-
-- commit/push
-
-- deploy on a Github page
-
-### Inspiration
-
-![Mockup](example.jpg)
+- Vcard responsive in react : ok
+- Integrate a Gallery : to be continued...
